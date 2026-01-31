@@ -1,0 +1,261 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    overflow-x: hidden ;
+}
+.container-lg .navbar-brand{
+ background-color: #f3f4f5;
+}
+.btnholder{
+display: flex;
+}
+.navbar-brand{
+font-weight: 600;
+display: flex;
+gap: 10px;
+}
+
+
+.btn{
+  background: #0066FF ;
+  color: white;
+  border-radius: 00;
+}
+.btnholder .holder{
+  border: none;
+  background-color:#f3f4f5;
+  height: 40px;
+width: 80px;
+border-radius: 00;
+text-align: center;
+} 
+/* hero part */
+.DIV1{ 
+    height: 300PX;
+    width: 600PX;
+     /* border: 3px solid red; */
+     position: absolute;
+     z-index: 2;
+     margin-top: 200px;
+     margin-left: 100px;
+     line-height: 20px;
+     font-weight: 600;
+}
+.DIV1 h1{
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 60px;
+}
+.DIV1 mark{
+  background-color: yellow;
+}
+.main{
+  height: 100vh;
+  width: 100%;
+
+}
+.main input{
+border-color: #0066FF;
+border-radius: 00;
+width: 200px;
+/* border: none; */
+justify-items: center;
+
+}
+.list{
+  display: flex;
+  margin-top: 15px;
+  gap: 20PX;
+}
+.insta img{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    z-index: 3;
+    margin-left: 680px;
+    margin-top: 410px;
+}
+
+
+.DIV2{
+   height: 700px;
+    width: 900PX; 
+    /* border: 3px solid red; */
+    position: absolute;
+    z-index: 1;
+    margin-left: 330px;
+    background: linear-gradient(180deg, rgba(145, 158, 189, 0.288) 0%, rgba(214, 218, 228, 0.2) 100%);
+}
+.blank .girl{
+ /* border: 3px solid red; */
+ height: 70px;
+ width: 300px;
+ display: flex;
+ margin-left: 400px;
+ border-radius: 350px;
+ margin-top: 20px;
+box-shadow: 4px 4px 4px rgb(177, 171, 171);
+}
+.girl img{
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.containerpic{
+    display: flex;
+    width: 400px;  
+    height: 400px; 
+    gap: 5px;       
+    border: 1px solid #000;
+    margin-top: 40px;
+    margin-left: 400px;
+  }
+
+  .left-pic {
+    flex: 2; 
+  }
+
+  .right-pics {
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    gap: 5px;
+  }
+
+  .right-pics img,
+  .left-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  .logos{
+
+    margin-top: 70px;
+    margin-left: 50px
+  }
+  /* third */
+  .third{
+  height: 100vh;
+  width: 100%;
+  margin-top: 100px;
+}
+.items{
+display: flex;
+  flex-direction: column;
+ gap: 30px;
+ }
+
+.items h2{
+  font-weight: 900;
+  font-size:40px ;
+  width: 300px;
+
+}
+.threeh2{
+    font-weight: 700;
+    font-size: 40px;
+}
+mark{
+    background-color: yellow;
+}
+.para{
+    width: 680px;
+    margin-left: 350px;
+}
+.card{
+    text-align: center;
+     display: flex;
+    align-items: center;
+    border: 0;
+    box-shadow: 2px 2px 2px 2px rgb(219, 219, 226);
+}
+.card img{
+    width: 50px;
+   
+}
+.card1 img{
+    width: 100px;
+}
+.card-text{
+font-size: 24px;
+
+}
+.sixtext{
+  color: #f3f4f5;
+  font-size: 40px;
+}
+.six{
+  background-color: #000;
+  width: 100%;
+  /* height: 100vh; */
+  margin-top: 50px;
+padding: 100px;
+}
+.sixpara{
+  color: #f3f4f5;
+}
+.sixcard p{
+font-size: 16px;
+}
+.sixcard{
+  background-color: #f3f4f5;
+  border-radius: 10px;
+}
+
+  @media (max-width:576px) {
+    .main{
+        flex-direction: column;
+    }
+    .DIV1{
+        margin-left: 10px;
+    }
+    .DIV1 h1{
+        font-size: 32px;
+        font-weight: 500;
+    }
+    .DIV1 p{
+        font-size: 16px;
+        width: 500px;
+    }
+    .third{
+        margin-top: 300px;
+        flex-direction: column;
+    }
+    .thirdpic img{
+        width: 550px;
+    }
+    .items{
+        justify-content: center;
+        align-items: center;
+    }
+    .three{
+        margin-top: 200px;
+        }
+    .threeh2{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 25px;
+}
+.para{
+    margin-left: 50px;
+    font-size: 16px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .fivecard{
+  flex-direction: column;
+ }
+ .fivecard{
+  margin-left: 100px;
+ } 
+ .sixth{
+  flex-direction: column;
+ }  
+  }
