@@ -5,6 +5,7 @@
 }
 body{
     overflow-x: hidden ;
+    overflow-y: hidden;
 }
 .container-lg .navbar-brand{
  background-color: #f3f4f5;
@@ -171,6 +172,7 @@ mark{
     align-items: center;
     border: 0;
     box-shadow: 2px 2px 2px 2px rgb(219, 219, 226);
+  
 }
 .card img{
     width: 50px;
@@ -204,7 +206,168 @@ font-size: 16px;
   background-color: #f3f4f5;
   border-radius: 10px;
 }
+.outline1{
+  /* height: 300px; */
+  /* width: 100px; */
+  left: 100px;
+  top: 80px;
 
+}
+.outline2{
+  left: 100px;
+  top: 80px;
+ 
+}
+.seven{
+/* height:80vh; */
+width: 100%;
+padding-left: 10px;
+}
+.out1{
+  height: 150px;
+  width: 100px;
+  border-style: dotted;
+  border:1px solid grey;
+   border-left: none;
+  border-top: none;
+}
+.out2{
+   height: 150px;
+  width: 100px;
+ border:1px solid grey;
+ border-style: dotted;
+ border-bottom: none;
+ border-left: none;
+}
+.box1{
+   height: 60px;
+  width: 100px;
+ border: 1px solid grey;
+  border-style: dotted;
+  border-right: none;
+}
+.box2{
+   height: 60px;
+  width: 100px;
+ border: 1px solid grey;
+  border-style: dotted;
+  border-right: none;
+}
+.box3{
+   height: 60px;
+  width: 100px;
+ border: 1px solid grey;
+  border-style: dotted;
+  border-right: none;
+}
+.box4{
+   height: 60px;
+  width: 100px;
+ border: 1px solid grey;
+  border-style: dotted;
+  border-right: none;
+}
+.box5{
+   height: 60px;
+  width: 100px;
+ border: 1px solid grey;
+  border-style: dotted;
+  border-right: none;
+}
+
+.brands{
+  left: 100px;
+  top: 80px;
+  gap: 10px;
+}
+.seven1{
+  margin-top: 50px;
+  padding-left: 100px;
+}
+  .seven2{
+  margin-bottom: 120px;
+}
+.nine{
+  width: 100%;
+  margin-top: 20px;
+}
+.nine1{
+margin-bottom: 30px;
+}
+.nineimg{
+  width: 900px;
+height: 25px;
+}
+.follow{
+  margin-left:880px ;
+}
+.ten{
+  width: 100%;
+  min-height: 800px;
+
+
+}
+.pic2{
+top: 30px;
+border-radius: 20px;
+}
+.ten1{
+  height: 600px;
+  width: 400px;
+  background-color: #f3f4f5;
+  margin-left: 460px;
+  margin-top: 150px;
+}
+.tenpara{
+  font-size: 10px;
+  width: 330px;
+}
+.eleven {
+  width: 100%;
+}
+.eleven1{
+  margin-left: 50px;
+}
+.btnholder1{
+  display: flex;
+
+}
+.btnholder1 input{
+width: 160px;
+border-radius: 0;
+}
+.h2{
+  font-size: 40px;
+  font-weight: 800;
+  width: 460px;
+}
+.p2{
+  width: 520px;
+}
+.twelve{
+  /* height: 100vh; */
+  /* width: 100%; */
+  margin-top: 100px;
+  padding: 80px;
+
+}
+.twelve1{
+  width: 50%;
+}
+.twelve2{
+  width: 50%;
+}
+.cards {
+  width: 650px;
+  height: 200px;
+  /* border: none; */
+box-shadow: 2px 2px 4px 2px #ecf2f5;
+  margin: 20px;
+
+}
+.cards p{
+width: 250px;
+}
   @media (max-width:576px) {
     .main{
         flex-direction: column;
@@ -257,5 +420,51 @@ font-size: 16px;
  } 
  .sixth{
   flex-direction: column;
- }  
-  }
+ } 
+ .seven{
+  flex-direction: column;
+ } 
+ .eight{
+  flex-direction: column;
+ }
+ .eight img{
+  width: 150px;
+  height: 40px;
+  margin-left: 180px;
+ }
+ .nine{
+  flex-direction: column;
+ }
+ .follow{
+  margin-left: 350px;
+ }
+.nineimg{
+  width: 550px;
+}
+.ten1{
+margin-top:150px ;
+margin-left:100px ;
+}
+.pic1{
+  height: 100vh;
+  width:100% ;
+  margin-top: 100px;
+}
+.pic2{
+
+}
+.twelve{
+  display: flex;
+  margin-left: 30px;
+}
+.twelve1{
+  flex-direction: column;
+}
+.twelve2{
+  flex-direction: column;
+}
+.cards{
+  width: 300px;
+}
+}
+  
